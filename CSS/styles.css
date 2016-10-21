@@ -1,0 +1,116 @@
+/*#titlebar {
+	border: solid;
+	color: black;
+	width: 798px;
+	margin: 0 auto;
+	height: 53px;
+	background-color: #FFB4B0;
+}*/
+p {
+	color: red;
+}
+
+button .genreButton {
+	width: 62px;
+	height: 18px;
+	background-color: red;
+}
+
+/* -------Classes-------------- */
+
+.wrapper {
+	max-width: 960px;
+	max-height: 660px;
+/*	border: dotted;
+*/	margin-top: 40px;
+	position: relative;
+}
+
+/*// container for lower two elements*/
+.lowerBox {
+	width: 80%;
+	height: 40%;
+	/*margin-top: 8px;*/
+	margin: 8px auto;
+	/*position: relative;*/
+	border: 1px dotted;
+/*	border: dotted;
+*/}
+
+/* Left side bar to select... */
+.selector {
+}
+
+.radiogroup {
+	display: inline-block;
+	width: 100%;
+    height: 100px;
+    background-color: red;
+
+}
+
+}
+
+.genreButton {
+	width: 62px;
+	height: 18px;
+	background-color: red;
+}
+
+
+/* Right side box outputting song list, etc..... */
+.hero {
+	border: solid;
+	color: black;
+	width: 73%;
+	margin-left: 6px;
+	height: 372px;
+	display: inline-block;
+/*	float: right;*/
+	background-color: #FEFAC0;
+}
+
+.songTitles {
+	list-style-type: none;
+	display: inline-block;
+	border-right: 2px solid;
+	padding-right: 6px;
+/*	margin: 0 3px;;*/
+}
+
+/* ----------Items---------- */
+
+header {
+	border: solid;
+	color: black;
+	width: 80%;
+	margin: 0 auto;
+	height: 53px;
+	background-color: #FFB4B0;
+}
+
+li {
+	list-style-type: none;
+	display: inline-block;
+	border-right: 2px solid;
+	padding-right: 6px;
+/*	margin: 0 3px;;*/
+}
+
+
+
+main {
+	
+}
+
+aside {
+	border: solid;
+	color: black;
+	width: 23.33%;
+/*	margin-left: 54px;*/
+	height: 372px;
+	display: inline-block;
+	/*float: left;*/
+	background-color: #4DD7FA;
+
+}
