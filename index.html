@@ -6,7 +6,7 @@
   <title>Music History</title>
 	<meta name="description" content="ChangeME">
 	<meta name="author" content="Mark Ellis">
-	<link rel="stylesheet" type="text/css" href="normalize.css"></li>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css"></li>
 	<link rel="stylesheet" type="text/css" href="css/styles.css"></li>
 </head>
 
@@ -19,7 +19,7 @@
 				<li><a href="#">Add Music</a></li>
 				<li><a href="#">Profile</a></li>
 			</ul>
-			
+
 		</header>
 
 <!-- This is the lower box containing both the aside and hero sections		 -->
@@ -34,7 +34,7 @@
 					<h5>Song Length</h5>
 					<input type="range" name="Song Length">
 				<!-- Artist Dropdown -->
-					<div>
+					<div class="artistSel">
 						<h5>Artist</h5>
 
 						<select>
@@ -46,9 +46,9 @@
 						</select>
 					</div>
 				<!-- Album Dropdown -->
-					<div>
+					<div class="albumSel">
 						<h5>Album</h5>
-						
+
 						<select>
 							<option>Shout At The Devil</option>
 							<option>Balls Out</option>
@@ -56,29 +56,48 @@
 							<option>Culture Of Fear</option>
 							<option>Anthology: Jackson 5</option>
 						</select>
-						
+
 					</div>
 				<!-- Genre Options -->
-						<div class=radiogroup>
+					<div class=radiogroup>
+					<table>
 
-						<button type="radio" name:"genre" class="genreButton" label="Rock"/>
+						<tr>
+						<td>
+						<input type="radio" name:"genre" class="genreButton" label="Rock"/>
 						<label>Rock</label>
-						<button type="radio" name:"genre" class="genreButton" label="Classical" selected="true"/>
+						</td>
+						<td>
+						<input type="radio" name:"genre" class="genreButton" label="Classical" />
 						<label>Classical</label>
-						<button type="radio" name:"genre" class="genreButton" label="Pop"/>
+						</td>
+						</tr>
+						<tr>
+						<td>
+						<input type="radio" name:"genre" class="genreButton" label="Pop"/>
 						<label>Pop</label>
-						<button type="radio" name:"genre" class="genreButton" label="Jazz"/>
+						</td>
+						<td>
+						<input type="radio" name:"genre" class="genreButton" label="Jazz"/>
 						<label>Jazz</label>
-						<button type="radio" name:"genre" class="genreButton" label="Blues" selected="true"/>
+						</td>
+						</tr>
+						<tr>
+						<td>
+						<input type="radio" name:"genre" class="genreButton" label="Blues"/>
 						<label>Blues</label>
-						<button type="radio" name:"genre" class="genreButton" label="Hip hop"/>
+						</td>
+						<td>
+						<input type="radio" name:"genre" class="genreButton" label="Hip hop"/>
 						<label>Hip hop</label>
+						</td>
+						</tr>
 
-						</div>
-					<div>
+					</table>
+
 					</div>
 
-					
+
 				</aside>
 			</div>
 
@@ -86,39 +105,51 @@
 
 			<div class="hero">
 				<main>
-					<!-- <ul>
 
-					</ul> -->
-					<h3 class=songTitles>Song 1 Name</h3>
-					<ul>
-						<li><a href="#">Artist Name</a></li>
-						<li><a href="#">Album Name</a></li>
-						<li><a href="#">Genre</a></li>
-					</ul>						
-					<h3 class=songTitles>Song 2 Name</h3>
-					<ul>
-						<li><a href="#">Artist Name</a></li>
-						<li><a href="#">Album Name</a></li>
-						<li><a href="#">Genre</a></li>
-					</ul>
-					<h3 class=songTitles>Song 3 Name</h3>
-					<ul>
-						<li><a href="#">Artist Name</a></li>
-						<li><a href="#">Album Name</a></li>
-						<li><a href="#">Genre</a></li>
-					</ul>						
-					<h3 class=songTitles>Song 4 Name</h3>
-					<ul>
-						<li><a href="#">Artist Name</a></li>
-						<li><a href="#">Album Name</a></li>
-						<li><a href="#">Genre</a></li>
-					</ul>							
+					<div class="songInfo">
+
+						<h3 class=songTitles>Song 1 Name</h3>
+						<ul>
+							<li><a href="#">Artist Name</a></li>
+							<li><a href="#">Album Name</a></li>
+							<li><a href="#">Genre</a></li>
+						</ul>
+
+					</div>
+
+					<div class="songInfo">
+						<h3 class=songTitles>Song 2 Name</h3>
+						<ul>
+							<li><a href="#">Artist Name</a></li>
+							<li><a href="#">Album Name</a></li>
+							<li><a href="#">Genre</a></li>
+						</ul>
+					</div>
+
+					<div class="songInfo">
+						<h3 class=songTitles>Song 3 Name</h3>
+						<ul>
+							<li><a href="#">Artist Name</a></li>
+							<li><a href="#">Album Name</a></li>
+							<li><a href="#">Genre</a></li>
+						</ul>
+					</div>
+
+					<div class="songInfo">
+						<h3 class=songTitles>Song 4 Name</h3>
+						<ul>
+							<li><a href="#">Artist Name</a></li>
+							<li><a href="#">Album Name</a></li>
+							<li><a href="#">Genre</a></li>
+						</ul>
+					</div>
+
 				</main>
 			</div>
 		</div>
 
 		<footer>
-			
+
 		</footer>
 
 	</div>
