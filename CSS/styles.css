@@ -63,14 +63,12 @@ h5 {
 
 }
 
-}
+
 
 .genreButton {
 	display: block;
-	position: absolute;
 	width: 62px;
 	height: 18px;
-	float: left;
 }
 
 
@@ -88,7 +86,7 @@ h5 {
 .songInfo {
 	width: 100%;
 	text-align: left;
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 }
 
 .songTitles {
