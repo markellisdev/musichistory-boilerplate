@@ -28,3 +28,7 @@ console.log("new Song", newSong);
 }
 
 console.log("songs", songs);
+
+for (let i=0; i < numSongs; i++) {
+document.getElementById("main-content").innerHTML += "<div class = song>" +  songs[i] + "</div>";
+}
