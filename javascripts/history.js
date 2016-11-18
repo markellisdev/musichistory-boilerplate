@@ -3,5 +3,5 @@ var song = {
 	artist: "",
 	album: "",
 	genre: ""
-}
+};
 
