@@ -39,8 +39,7 @@ h5 {
 	display: inline-block;
 	position: absolute;
 	border: 1px dotted;
-/*	border: dotted;
-*/}
+}
 
 /* Left side bar to select... */
 .selector {
